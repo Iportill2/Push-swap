@@ -1,0 +1,79 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    .gitignore                                         :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iportill <iportill@student.42urduliz.co    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/07/04 13:35:00 by iportill          #+#    #+#              #
+#    Updated: 2025/07/04 13:35:00 by iportill         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Archivos ejecutables
+push_swap/push_swap
+checker/checker
+checker_Mac
+
+# Archivos objeto (.o)
+*.o
+
+# Archivos de librería (.a)
+*.a
+
+# Headers precompilados (.gch)
+*.gch
+
+# Directorios de objetos
+push_swap/objs/
+checker/objs/
+
+# Archivos temporales
+*.tmp
+*.temp
+moves.txt
+*_test
+test_*
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de VS Code
+.vscode/settings.json.bak
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# Archivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos de compilación alternativos
+*.exe
+*.out
+*.app
+
+# Archivos de backup
+*~
+*.swp
+*.swo
+*#
+
+# Archivos de log
+*.log
+
+# Push_swap tester específicos
+push_swap_tester/
+testers/
+visualizer/
+
+# Archivos de evaluación 42
+*.42
